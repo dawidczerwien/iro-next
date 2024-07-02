@@ -128,8 +128,12 @@
   .header.style2 .right-bar {
     padding-top: 15px;
   }
+  /* Slider height */
   .slider .single-slider {
-    height: 380px;
+    height: 580px;
+  }
+  .slider .single-slider p {
+    width: 80%;
   }
   .schedule {
     background: #fff;
@@ -584,8 +588,9 @@
     float: none;
     text-align: center;
   }
+
   .slider .single-slider {
-    height: 380px;
+    height: 680px;
   }
   .schedule {
     background: #fff;
