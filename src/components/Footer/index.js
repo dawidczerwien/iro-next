@@ -20,7 +20,7 @@ export default function Footer() {
           </div>
         </div>
         {/* <!-- Copyright --> */}
-        {/* <Copyright /> */}
+        <Copyright />
       </footer>
     </>
   );

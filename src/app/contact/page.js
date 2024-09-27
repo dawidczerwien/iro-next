@@ -16,7 +16,7 @@ export default function Contact() {
               <div className="col-lg-6">
                 <div className="contact-us-left">
                   <div id="myMap">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902.1784454555855!2d19.664633939684897!3d49.53242511316451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715dbaaeb07736d%3A0x98a0b31db7a43c7c!2sZubrzyca%20Dolna%2077%2C%2034-484%20Zubrzyca%20Dolna!5e0!3m2!1spl!2spl!4v1718695328050!5m2!1spl!2spl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1902.1784454555855!2d19.664633939684897!3d49.53242511316451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4715dbaaeb07736d%3A0x98a0b31db7a43c7c!2sZubrzyca%20Dolna%2077%2C%2034-484%20Zubrzyca%20Dolna!5e0!3m2!1spl!2spl!4v1718695328050!5m2!1spl!2spl" width="600" height="450" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                 </div>
               </div>

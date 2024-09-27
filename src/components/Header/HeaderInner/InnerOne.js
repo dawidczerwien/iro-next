@@ -23,11 +23,22 @@ export default function HeaderInner() {
               <div className="col-lg-7 col-md-9 col-12">
                 <Navbar />
               </div>
-              <div className="col-lg-2 col-12">
+              <div className="col-lg-2 col-12 p-0">
                 <div className="get-quote">
-                  <Link href="https://www.facebook.com/profile.php?id=100083176642932" className="btn" target="_blanc">
-                    Polub nas na facebook
-                  </Link>
+                  
+                  <div className="news-single" style={{padding: '7px 0'}}>
+
+                      <ul className="social-share me-3">
+                        <li className="facebook">
+                          <Link href="https://www.facebook.com/profile.php?id=100083176642932"  target="_blank" className="btn">
+
+                            <i className="fa fa-facebook"></i>
+                            <span>Facebook</span>
+                          </Link>
+                        </li>
+                        
+                      </ul>
+                  </div>
                 </div>
               </div>
             </div>

@@ -7,7 +7,7 @@ export default function Topbar() {
         <div className="container">
           <div className="row">
             <div className="col-lg-6 col-md-5 col-12">
-              <ul className="top-link">
+              <ul className="top-link" style={{display:'none'}}>
                 {/* <li>
                   <Link href="/o-nas">O nas</Link>
                 </li>

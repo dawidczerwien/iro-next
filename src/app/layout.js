@@ -48,7 +48,7 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <>
           <Preloader />
-          <ColorLayout />
+          {/* <ColorLayout /> */}
           {children}
           {/* <Newsletter /> */}
           <Footer />

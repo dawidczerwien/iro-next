@@ -4090,7 +4090,7 @@ body {
 }
 .footer .copyright {
   background: var(--primary-color);
-  padding: 25px 0px 25px 0px;
+  padding: 5px 0;
   text-align: center;
 }
 .footer .copyright .copyright-content p {

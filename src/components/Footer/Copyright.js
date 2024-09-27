@@ -7,7 +7,8 @@ export default function Copyright() {
             <div className="col-lg-12 col-md-12 col-12">
               <div className="copyright-content">
                 <p>
-                  © Copyright 2024 | All Rights Reserved by{" "}
+                  © Copyright 2024 | Realizacja Strony Dawid Czerwień Damian Kostyra 
+                  Kontakt: administracja@gmail.com  Tel: <a href="tel:537544547">537544547</a>{" "}
                   <a href="#"></a>{" "}
                 </p>
               </div>
