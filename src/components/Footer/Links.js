@@ -38,6 +38,13 @@ export default function Links() {
                     <i className="fa fa-caret-right" aria-hidden="true"></i>
                     Kontakt
                   </Link>
+                  
+                </li>
+                <li>
+                <Link href="/dokumenty">
+                    <i className="fa fa-caret-right" aria-hidden="true"></i>
+                    Dokumenty
+                  </Link>
                 </li>
               </ul>
             </div>
