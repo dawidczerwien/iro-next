@@ -3,7 +3,7 @@ import TeamCard from "@/components/TeamCard";
 
 import SectionImg from "../../../../public/img/section-img2.png";
 
-import TeamImg1 from "../../../../public/img/team1.jpg";
+import TeamImg1 from "../../../../public/img/team1.png";
 import TeamImg2 from "../../../../public/img/team2.jpg";
 import TeamImg3 from "../../../../public/img/team3.jpg";
 import TeamImg4 from "../../../../public/img/team4.jpg";

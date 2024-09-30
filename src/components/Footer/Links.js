@@ -20,6 +20,12 @@ export default function Links() {
                     O nas
                   </Link>
                 </li>
+                <li>
+                  <Link href="/zarzad">
+                    <i className="fa fa-caret-right" aria-hidden="true"></i>
+                    Zarząd
+                  </Link>
+                </li>
                 
                 
                 
