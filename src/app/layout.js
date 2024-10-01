@@ -5,6 +5,7 @@ import ScrollTop from "@/components/ScrollTop";
 import ColorLayout from "@/components/ColorPlate/ColorLayout";
 import Preloader from "@/components/Preloader";
 import { Poppins } from "next/font/google";
+import CookiesConsent from "@/components/CookiesConsent"
 
 // Bootstrap CSS
 import "../../public/css/bootstrap.min.css";
@@ -52,6 +53,7 @@ export default function RootLayout({ children }) {
           {children}
           {/* <Newsletter /> */}
           <Footer />
+          <CookiesConsent />
           <ScrollTop />
           <Script src="/js/bootstrap.min.js"></Script>
         </>

@@ -1,9 +1,8 @@
 "use client";
 
 import Image from "next/image";
-import Link from "next/link";
 import { Tilt } from "react-tilt";
-import TeamImg1 from "../../../public/img/team1.jpg";
+import TeamImg1 from "../../../public/img/team1.png";
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -18,7 +17,7 @@ const defaultOptions = {
 };
 
 export default function TeamCard(props) {
-  const { tilt, image, name, designation } = props;
+  const { tilt, image, name, desgination } = props;
 
   return (
     <>
@@ -31,18 +30,11 @@ export default function TeamCard(props) {
               width={558}
               height={575}
             />
-            <div className="t-icon">
-              <Link href="/appointment" className="btn">
-                Get Appointment
-              </Link>
-            </div>
           </div>
           <div className="t-bottom">
-            <p>{designation ? designation : "Neurosurgeon"}</p>
+            <p>{desgination ? desgination : ""}</p>
             <h2>
-              <Link href="/doctor-details">
-                {name ? name : "Collis Molate"}
-              </Link>
+                {name ? name : ""}
             </h2>
           </div>
         </div>

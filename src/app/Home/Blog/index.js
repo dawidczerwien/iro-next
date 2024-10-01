@@ -31,7 +31,7 @@ export default function Blog() {
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg2}
-                date="09 MARCA, 2024"
+                date="9 MARCA, 2024"
                 title="IV Wielkie Sprzątanie Zubrzycy Dolnej."
                 desc="Już 4 rok z rzędu organizujemy Wielkie sprzątanie Zubrzycy Dolnej 💪🏻 Z roku na rok jest nas coraz więcej, co ogromnie cieszy!"
               />
@@ -39,7 +39,7 @@ export default function Blog() {
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg3}
-                date="05 Jan, 2020"
+                date="16 Grudnia, 2023"
                 title={`Uroczysta promocja i publikacja książki "Skondeś ty, cyj ześ ty?"`}
                 desc={`ZAPROSZENIE 📜
 16 grudnia o godz. 16:00 w remizie OSP Zubrzyca Dolna, odbędzie się publikacja książki pt. "Skondeś ty, cyj ześ ty? Dziedzictwo Zubrzycy Dolnej zawarte na starych fotografiach". 📚🎉
