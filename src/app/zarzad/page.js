@@ -58,6 +58,35 @@ export default function Doctors() {
             </div>
           </div>
         </div>
+        <div className='container mt-5'>
+          <h2>Komisja Rewizyjna</h2>
+          <div className='row'>
+            <div className='col-lg-4 col-md-6 col-12'>
+              <TeamCard
+                tilt='tilt-disable'
+                image={TeamImg1}
+                name='Damian Kostyra'
+                desgination='Przewodniczący Komisji Rewizyjnej'
+              />
+            </div>
+            <div className='col-lg-4 col-md-6 col-12'>
+              <TeamCard
+                tilt='tilt-disable'
+                image={TeamImg1}
+                name='Ewelina Knapczyk'
+                desgination='Wiceprzewodnicząca Komisji Rewizyjnej'
+              />
+            </div>
+            <div className='col-lg-4 col-md-6 col-12'>
+              <TeamCard
+                tilt='tilt-disable'
+                image={TeamImg1}
+                name='Ewelina Torba'
+                desgination='Sekretarz Komisji Rewizyjnej'
+              />
+            </div>
+          </div>
+        </div>
       </section>
     </>
   );
