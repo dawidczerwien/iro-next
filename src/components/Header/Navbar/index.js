@@ -44,8 +44,38 @@ export default function Navbar() {
                 className={` ${pathname === "/o-nas" ? "active" : ""}`}
                 href="/o-nas"
               >
-                O nas
+                O nas <i className="icofont-rounded-down"></i>
               </Link>
+              <ul className="dropdown">
+                <li>
+                  <Link
+                    className={` ${pathname === "/zarzad" ? "active" : ""}`}
+                    href="/zarzad"
+                  >
+                    Zarząd
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    className={` ${
+                      pathname === "/statut" ? "active" : ""
+                    }`}
+                    href="/statut"
+                  >
+                    Statut
+                  </Link>
+                </li>
+                {/* <li>
+                  <Link
+                    className={` ${
+                      pathname === "/dokumenty" ? "active" : ""
+                    }`}
+                    href="/dokumenty"
+                  >
+                    Dokumenty
+                  </Link>
+                </li> */}
+              </ul>
             </li>
             <li>
               <Link
