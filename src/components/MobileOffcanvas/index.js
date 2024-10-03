@@ -112,12 +112,43 @@ export default function MobileOffcanvas() {
                   </li>
                   <li>
                     <Link
-                      onClick={handleClose}
+                      onClick={() => toggleSubMenu(1)}
                       className={` ${isActive("/o-nas") ? "active" : ""}`}
-                      href="/o-nas"
+                      href="#"
                     >
-                      O Nas
+                      O Nas <i className="icofont-rounded-down"></i>
                     </Link>
+                    <ul
+                      className={`sub-menu ${openSubMenu === 1 ? "open" : ""}`}
+                    >
+                      <li>
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/o-nas") ? "active" : ""}`}
+                          href="/o-nas"
+                        >
+                          Więcej o nas
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/zarzad") ? "active" : ""}`}
+                          href="/zarzad"
+                        >
+                          Zarząd
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          onClick={handleClose}
+                          className={` ${isActive("/statut") ? "active" : ""}`}
+                          href="/statut"
+                        >
+                          Statut
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                 </ul>
               </nav>
