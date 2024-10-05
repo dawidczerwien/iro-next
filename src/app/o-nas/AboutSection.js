@@ -5,7 +5,7 @@ export default function AboutSection() {
         <div className="container-fluid p-0">
           <div className="row m-0">
             <div className="col-lg-6 col-md-12 p-0">
-              <div className="about-image"></div>
+              <div className="our-mission-image"></div>
             </div>
             <div className="col-lg-6 col-md-12 p-0">
               <div className="about-content">
