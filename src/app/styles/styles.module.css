@@ -4206,3 +4206,35 @@ body {
 .documents-area {
   min-height: 600px;
 }
+
+/*=========================
+	Start Statut CSS
+===========================*/
+.statut, .statut p{
+  color: #000;
+  font-family: 'Times New Roman';
+  font-size: 18px;
+  text-align: justify;
+  text-justify: inter-word;
+  word-spacing: 5px;
+  line-height: 1.4;
+}
+
+.statut-title{
+  text-align: center;
+  font-weight: bold;
+}
+.statut-article{
+  padding: 0 25px
+}
+@media screen and (min-width: 1000px) {
+  .statut-article{
+    padding: 0 100px;
+  }
+}
+
+
+
+/*=========================
+	End Statut CSS
+===========================*/
