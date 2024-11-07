@@ -57,6 +57,14 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link
+                    className={` ${pathname === "/komisja-rewizyjna" ? "active" : ""}`}
+                    href="/komisja-rewizyjna"
+                  >
+                    Komisja rewizyjna
+                  </Link>
+                </li>
+                <li>
+                  <Link
                     className={` ${
                       pathname === "/statut" ? "active" : ""
                     }`}
