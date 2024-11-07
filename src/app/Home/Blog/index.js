@@ -4,6 +4,7 @@ import BlogCard from "@/components/BlogCard";
 import BlogImg1 from "../../../../public/img/HDK.jpeg";
 import BlogImg2 from "../../../../public/img/wielkiesprzatanie.jpg";
 import BlogImg3 from "../../../../public/img/skontzesty.jpg";
+import BlogImg4 from "../../../../public/img/dwor2.jpg";
 
 export default function Blog() {
   return (
@@ -19,6 +20,16 @@ export default function Blog() {
             </div>
           </div>
           <div className="row">
+            <div className="col-lg-4 col-md-6 col-12">
+              <BlogCard
+                image={BlogImg4}
+                date="18 października, 2024"
+                title="KONFERENCJA HISTORYCZNA oraz Dwór Moniaków."
+                desc='1. Wydarzenie jest realizowane w ramach projektu "Orawa świętuje! Cykl wydarzeń skupionych wokół ważnych rocznic historycznych miejscowości Zubrzycy Dolnej i Zubrzycy Górnej”. 2. Dwór Moniaków.
+W 420. rocznicę powstania pierwszych zrębów jednej z najstarszych sadyb na Podtatrzu'
+                link='/wydarzenie-konferencja-dwor'
+              />
+            </div>
             <div className="col-lg-4 col-md-6 col-12">
               <BlogCard
                 image={BlogImg1}

@@ -31,9 +31,7 @@ export default function BlogSingle() {
                     </div>
 
                     <h1 className="news-title">
-                      <Link href="news-single.html">
                       Orawski Klub HDK. Spotkanie założycielskie
-                      </Link>
                     </h1>
 
                     {/* <div className="meta">
@@ -133,6 +131,18 @@ export default function BlogSingle() {
             </div>
             <div className="col-lg-4 col-12">
               {/* <BlogSidebar /> */}
+            </div>
+            <div className='mt-3'>
+              <iframe
+                src='https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fprofile.php%3Fid%3D100083176642932&tabs=timeline&width=500&height=700&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=false&appId'
+                width='500'
+                height='700'
+                styles={{ border: 'none', overflow: 'hidden' }}
+                scrolling='no'
+                frameborder='0'
+                allowfullscreen='true'
+                allow='autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
+              ></iframe>
             </div>
           </div>
         </div>

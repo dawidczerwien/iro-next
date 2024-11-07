@@ -13,7 +13,7 @@ export default function FunfactCard(props) {
           <span className="counter">
             <CountUp end={number ? number : "3468"} delay={1} enableScrollSpy />
           </span>
-          <p>{desc ? desc : "Hospital Rooms"}</p>
+          <p>{desc ? desc : ""}</p>
         </div>
       </div>
     </>
