@@ -142,6 +142,15 @@ export default function MobileOffcanvas() {
                       <li>
                         <Link
                           onClick={handleClose}
+                          className={` ${isActive("/komisja-rewizyjna") ? "active" : ""}`}
+                          href="/komisja-rewizyjna"
+                        >
+                          Komisja rewizyjna
+                        </Link>
+                      </li>
+                      <li>
+                        <Link
+                          onClick={handleClose}
                           className={` ${isActive("/statut") ? "active" : ""}`}
                           href="/statut"
                         >

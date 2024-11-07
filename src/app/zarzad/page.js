@@ -6,7 +6,7 @@ import Img1 from '../../../public/img/profile_mateusz.jpg';
 
 import Header from '@/components/Header/Header';
 
-export default function Doctors() {
+export default function Zarzad() {
   return (
     <>
       <Header />
@@ -54,35 +54,6 @@ export default function Doctors() {
                 image={TeamImg1}
                 name='Edyta Lis'
                 desgination='Dyrektor Biura Zarządu'
-              />
-            </div>
-          </div>
-        </div>
-        <div className='container mt-5'>
-          <h2>Komisja Rewizyjna</h2>
-          <div className='row'>
-            <div className='col-lg-4 col-md-6 col-12'>
-              <TeamCard
-                tilt='tilt-disable'
-                image={TeamImg1}
-                name='Damian Kostyra'
-                desgination='Przewodniczący Komisji Rewizyjnej'
-              />
-            </div>
-            <div className='col-lg-4 col-md-6 col-12'>
-              <TeamCard
-                tilt='tilt-disable'
-                image={TeamImg1}
-                name='Ewelina Knapczyk'
-                desgination='Wiceprzewodnicząca Komisji Rewizyjnej'
-              />
-            </div>
-            <div className='col-lg-4 col-md-6 col-12'>
-              <TeamCard
-                tilt='tilt-disable'
-                image={TeamImg1}
-                name='Ewelina Torba'
-                desgination='Sekretarz Komisji Rewizyjnej'
               />
             </div>
           </div>
