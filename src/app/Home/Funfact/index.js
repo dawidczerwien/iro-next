@@ -16,8 +16,8 @@ export default function Funfact() {
             <div className="col-lg-4 col-md-6 col-12">
               <FunfactCard
                 icon="icofont icofont-user-alt-3"
-                number="941"
-                desc="Liczba obsewujących"
+                number="975"
+                desc="Liczba obsewujących na FB"
               />
             </div>
             <div className="col-lg-4 col-md-6 col-12">
